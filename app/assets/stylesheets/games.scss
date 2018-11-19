@@ -1,0 +1,48 @@
+// Place all the styles related to the games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.container {
+  position:fixed;
+  top: 50%;
+  left: 50%;
+  width: 800px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -400px;
+
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.word-grid {
+  height: 80px;
+  width: 640px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 20px auto;
+}
+
+.input-group {
+  width: 640px;
+  margin: 20px auto;
+}
+
+.letter-box h2 { margin: 0; }
+
+.letter-box {
+  height: 50px;
+  width: 50px;
+  background: #4286f4;
+
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  font-family: Indie Flower;
+
+  border: 1px solid gray;
+  border-radius: 25%;
+  box-shadow: 5px 10px #888888;
+  margin: auto;
+}
